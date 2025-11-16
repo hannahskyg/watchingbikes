@@ -6,5 +6,26 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   margin: auto;
-  padding: 1em;
+  padding: 1em 2em;
+}
+
+header {
+  display: flex;
+  gap: 1em;
+  align-items: baseline;
+}
+
+header label {
+  margin-left: auto;
+}
+
+header label time,
+header label em {
+  display: block;
+  margin-top: 0.5em;
+}
+
+header label em {
+  color: #666;
+  font-style: italic;
 }
